@@ -57,3 +57,10 @@ const obj2 = JSON.parse(json, (key,value) => {
     return key === 'birthDate' ? new Date(value):value
 })
 console.log(obj2.birthDate.getDate())
+
+
+// 유용한 사이트
+// http://jsondiff.com/ json 객체 2개를 넣으면 다른 부분을 highlight 해 주는 사이트이다.
+// https://jsonbeautifier.org/ 못생긴 json을 이쁘게 format 해서 알려주는 사이트이다.
+// https://jsonparser.org/ json 문자열을 넣으면 객체로 표현해 주는 사이트
+// https://jsonformatter.curiousconcept.com/ json validator 사이트.
